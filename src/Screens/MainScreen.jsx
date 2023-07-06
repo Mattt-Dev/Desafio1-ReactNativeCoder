@@ -20,7 +20,8 @@ const MainScreen = () => {
         task: input,
         completed: false,
       },
-    ]);
+    ])
+      setInput("");
   };
 
   const onPressTask = (task) => {
